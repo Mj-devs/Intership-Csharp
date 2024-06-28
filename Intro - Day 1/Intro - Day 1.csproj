@@ -8,4 +8,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Data Types\objects data types\" />
+    <Folder Include="Data Types\Strings data types\" />
+  </ItemGroup>
+
 </Project>
