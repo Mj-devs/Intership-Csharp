@@ -1,4 +1,5 @@
 ﻿using Intro___Day_1.Data_Types.numbers_data_types;
+using Intro___Day_1.Data_Types.Strings_data_types;
 
 namespace Intro___Day_1
 {
@@ -22,7 +23,8 @@ namespace Intro___Day_1
             //    myGames.Genre();
 
 
-
+            StringDataType myString = new StringDataType();
+            myString.TestStrings();
             Numbers.justRandom();
             NumbersTypeConversion.TypeConversion();
         }
