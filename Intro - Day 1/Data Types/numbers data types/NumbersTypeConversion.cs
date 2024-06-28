@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Intro___Day_1.Data_Types.numbers_data_types
 {
-    public class NumbersTypeConversion
+    internal class NumbersTypeConversion
     {
         public static void TypeConversion()
         {
@@ -20,8 +20,12 @@ namespace Intro___Day_1.Data_Types.numbers_data_types
 
             int finalsum = addFirstNum + addSecNum;
 
-            SecondNum = (float)finalsum;
-            Console.WriteLine($"{finalsum} is of type {SecondNum.GetType()}");
+            //SecondNum = (float)finalsum;
+            //Console.WriteLine($"{SecondNum} is of type {SecondNum.GetType()}");
+            DecfirstNum = (decimal)finalsum;
+            Console.WriteLine($"{DecfirstNum} is of type {DecfirstNum.GetType()}");
+            finalsum = (int)SecondNum;
+            Console.WriteLine($"{finalsum} is of type {finalsum.GetType()}");
         }
     }
 }
