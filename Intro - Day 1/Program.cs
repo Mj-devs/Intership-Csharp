@@ -24,6 +24,7 @@ namespace Intro___Day_1
 
 
             Numbers.justRandom();
+            NumbersTypeConversion.TypeConversion();
         }
         
     }
