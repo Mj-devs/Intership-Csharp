@@ -7,7 +7,7 @@ namespace Intro___Day_1
     {
         static void Main(string[] args)
         {
-            //    Dog myDog = new Dog("Falon");
+            //  Dog myDog = new Dog("Falon");
             //    Dog yourDog = new Dog("Beauty");
             //   // Console.WriteLine(myDog.Name);
             //    //Console.WriteLine(yourDog.Name);
@@ -27,8 +27,10 @@ namespace Intro___Day_1
             //myString.TestStrings();
             //Numbers.justRandom();
             //NumbersTypeConversion.TypeConversion();
-            MathDataTypes.Nos();
+            //MathDataTypes.Nos();
 
+            Food food = new Food();
+            food.Breakfast();
         }
         
     }
