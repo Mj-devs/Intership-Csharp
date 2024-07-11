@@ -29,9 +29,9 @@ namespace Intro___Day_1
             //NumbersTypeConversion.TypeConversion();
             //MathDataTypes.Nos();
 
-            Food food = new Food();
-            food.Breakfast();
-            
+           // Food food = new Food();
+            //food.Breakfast();
+            Console.WriteLine(Maths.Math(4,5)); 
         }
         
     }
